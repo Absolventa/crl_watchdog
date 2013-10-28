@@ -2,7 +2,7 @@ require 'openssl'
 
 class CrlWatchdog
 
-  VERSION = '0.0.1'
+  VERSION = '1.0.0'
 
   attr_reader :crl
 

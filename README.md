@@ -1,24 +1,19 @@
 # CrlWatchdog
 
-TODO: Write a gem description
+Checks if an OpenSSl certificate revocation file expires within a given amount of days.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'crl_watchdog'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
+Install the system executable:
 
     $ gem install crl_watchdog
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ crlwatch --file /path/to/crl.pem --days 14
+
+The CLI returns 0 if the CRL expires after the given amount of days and 1 if
+the expiration date is within the given period.
 
 ## Contributing
 
