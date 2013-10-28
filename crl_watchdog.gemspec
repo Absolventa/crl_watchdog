@@ -14,4 +14,6 @@ Gem::Specification.new do |gem|
   gem.name          = "crl_watchdog"
   gem.require_paths = ["lib"]
   gem.version       = CrlWatchdog::VERSION
+
+  gem.add_development_dependency 'rspec'
 end
