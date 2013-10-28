@@ -29,4 +29,10 @@ describe CrlWatchdog do
     end
   end
 
+  describe '#next_update' do
+    it 'forwards to crl instance' do
+      expect(subject.next_update).to be_instance_of Time
+    end
+  end
+
 end

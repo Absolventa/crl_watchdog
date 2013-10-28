@@ -11,6 +11,10 @@ class CrlWatchdog
     @crl = OpenSSL::X509::CRL.new File.read(crl_file)
   end
 
+  def next_update
+    crl.next_update
+  end
+
   private
 
   def ensure_file_exists! file
