@@ -1,3 +1,4 @@
+require 'active_support/core_ext'
 require 'crl_watchdog'
 
 RSpec.configure do |config|
