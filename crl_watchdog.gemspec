@@ -1,5 +1,5 @@
 # -*- encoding: utf-8 -*-
-require File.expand_path('../lib/crl_watchdog/version', __FILE__)
+require File.expand_path('../lib/crl_watchdog', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Carsten Zimmermann"]
