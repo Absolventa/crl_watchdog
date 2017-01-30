@@ -60,7 +60,7 @@ describe CrlWatchdog do
 
     context 'verifying next_update' do
       before do
-        subject.stub(next_update: 10.days.from_now)
+        allow(subject).to receive(:next_update).and_return(10.days.from_now)
       end
 
       it 'return true if next_update is within requested time period' do
