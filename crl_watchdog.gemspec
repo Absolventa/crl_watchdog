@@ -3,8 +3,8 @@ require File.expand_path('../lib/crl_watchdog', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors       = ["Carsten Zimmermann"]
-  gem.email         = ["carp@hacksocke.de"]
-  gem.description   = %q{Checks if an OpenSSl certificate revocation file expires within a given amount of days}
+  gem.email         = ["cz@aegisnet.de"]
+  gem.description   = %q{Checks if an OpenSSL certificate revocation file expires within a given amount of days}
   gem.summary       = %q{Checks if a CRL expires within a given amount of days}
   gem.homepage      = ""
 
@@ -15,6 +15,6 @@ Gem::Specification.new do |gem|
   gem.require_paths = ["lib"]
   gem.version       = CrlWatchdog::VERSION
 
-  gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'rspec', '>= 3.5'
   gem.add_development_dependency 'activesupport'
 end
