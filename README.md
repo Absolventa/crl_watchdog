@@ -1,4 +1,4 @@
-# CrlWatchdog
+# CrlWatchdog [![Build Status](https://travis-ci.org/Absolventa/crl_watchdog.svg?branch=master)](https://travis-ci.org/Absolventa/crl_watchdog)
 
 Checks if an OpenSSl certificate revocation file expires within a given amount of days.
 
